@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: save7412
+    jdbc-url: 'jdbc:mysql://localhost:3307/triple_traveler?autoReconnect=true'
+    password: '34952'
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
